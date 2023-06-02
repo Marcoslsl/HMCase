@@ -6,6 +6,11 @@
     - Análise estatística
     - Machine learning
 
+## Como vizualizar o projeto
+
+Vá até o arquivo Main.ipynb e dentro do notebook vai estar todo desenvolvimento
+do projeto
+
 ## Metodologia e passos
 
 1. Estração de dados

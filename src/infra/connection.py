@@ -4,7 +4,12 @@ from sqlalchemy import create_engine
 
 
 class DBConnection:
-    def __init__(self, user, password, host, port, schema) -> None:
+    """Connection to db."""
+
+    def __init__(
+        self, user: str, password: str, host: str, port: int, schema: str
+    ) -> None:
+        """Construct."""
         self.__user = user
         self.__password = password
         self.__host = host
